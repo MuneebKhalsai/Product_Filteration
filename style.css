@@ -10,12 +10,9 @@
     100% { background-position: 0% 50%; }
 }
 
-body {
-    background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #ffdde1, #fccb90);
-    background-size: 400% 400%;
-    animation: gradientBG 6s ease infinite;
+body{
+    background-color: #ffffff;
 }
-
 
 .container{
     
@@ -39,6 +36,7 @@ body {
     border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+    box-shadow:  5px 5px 5px 5px   #000000;
 }
 
 .card:hover {
